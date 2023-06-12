@@ -1,0 +1,15 @@
+{
+  "name": "Doc-Template-VuePress",
+  "version": "1.0.0",
+  "description": "以VuePress为基础的文档模板",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
