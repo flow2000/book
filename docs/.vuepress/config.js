@@ -1,5 +1,5 @@
 module.exports = {
-    dest: 'docs/dist',
+    dest: 'docs/.vuepress/dist',
     title: '知识库',
     description: '沉淀自己，做一个属于自己的知识库',
     base: '/',
