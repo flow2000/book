@@ -2,7 +2,6 @@
   "name": "my-knowledge-repository",
   "version": "1.0.0",
   "description": "沉淀自己，做一个属于自己的知识库",
-  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"

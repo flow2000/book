@@ -1,3 +1,12 @@
+# 本教程文档配置
+
+版本：v1.x
+
+包管理器：yarn
+
+config.js：
+
+```js
 module.exports = {
     dest: 'docs/.vuepress/dist',
     title: '知识库',
@@ -60,9 +69,9 @@ module.exports = {
             }
         ],
         algolia: {
-            apiKey: '01c5ae976f2b3e3c3f8f51ce11459a83',
-            indexName: 'book',
-            appId: 'OUUVZO6TJL',
+            apiKey: 'xxxxx',
+            indexName: 'xxxxx',
+            appId: 'xxxxx',
         },
         displayAllHeaders: false, //显示所有页面的标题链接
         lastUpdated: '最近更新时间',
@@ -82,3 +91,5 @@ module.exports = {
         ['@vuepress/medium-zoom', true],
     ]
 }
+```
+
