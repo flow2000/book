@@ -66,11 +66,6 @@ module.exports = {
                 text: 'Github', link: 'https://github.com/flow2000/book'
             }
         ],
-        algolia: {
-            apiKey: '60cee6fd88a1723da2a4d85cd44e5691',
-            indexName: 'netlify_aa3de6c6-32d8-4005-8fa7-fc0b02485e27_main_all',
-            appId: 'KVAKQAJAMG',
-        },
         displayAllHeaders: false, //显示所有页面的标题链接
         lastUpdated: '最近更新时间',
         smoothScroll: true,
@@ -79,6 +74,7 @@ module.exports = {
     plugins: [
         ['@vuepress/last-updated'],
         ['@vuepress/back-to-top', true],
+        ['flexsearch-pro'],
         [
             '@vuepress/pwa',
             {
