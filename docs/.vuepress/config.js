@@ -67,7 +67,7 @@ module.exports = {
             }
         ],
         algolia: {
-            apiKey: '01c5ae976f2b3e3c3f8f51ce11459a83',
+            apiKey: 'e2425bcff86fdcbcfba8f97e8a3770fa',
             indexName: 'book',
             appId: 'OUUVZO6TJL',
         },
