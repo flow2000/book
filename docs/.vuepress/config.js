@@ -21,6 +21,10 @@ module.exports = {
             ],
             '/bugs/': [
                 '',
+                {
+                    title: 'nodejs新版本导致的：error:0308010C:digital envelope routines::unsupported',
+                    path: '/bugs/Error-error0308010Cdigital-envelope-routinesunsupported',
+                },
             ],
             '/tutorials/': [
                 '',
@@ -40,6 +44,9 @@ module.exports = {
                     path: '/repositories/ICONS',
                 },
             ],
+            '/': [
+                ''
+            ]
         },
         nav: [
             {

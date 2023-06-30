@@ -4,6 +4,28 @@
 
 包管理器：yarn
 
+package.json:
+
+```json
+{
+  "name": "my-knowledge-repository",
+  "version": "1.0.0",
+  "description": "沉淀自己，做一个属于自己的知识库",
+  "scripts": {
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "author": "枫叶",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-medium-zoom": "^1.9.9",
+    "@vuepress/plugin-pwa": "^1.9.9",
+    "vuepress": "^1.9.9"
+  }
+}
+```
+
 config.js：
 
 ```js
