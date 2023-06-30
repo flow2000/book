@@ -69,7 +69,7 @@ module.exports = {
         algolia: {
             apiKey: 'a2f905d2d1da32a1fb4362596d8d4e79',
             indexName: 'netlify_aa3de6c6-32d8-4005-8fa7-fc0b02485e27_main_all',
-            appId: '8X9O8PDK0O',
+            appId: 'KVAKQAJAMG',
         },
         displayAllHeaders: false, //显示所有页面的标题链接
         lastUpdated: '最近更新时间',
