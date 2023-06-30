@@ -67,9 +67,9 @@ module.exports = {
             }
         ],
         algolia: {
-            apiKey: 'e2425bcff86fdcbcfba8f97e8a3770fa',
-            indexName: 'book',
-            appId: 'OUUVZO6TJL',
+            apiKey: 'a2f905d2d1da32a1fb4362596d8d4e79',
+            indexName: 'aqcoder-book',
+            appId: '8X9O8PDK0O',
         },
         displayAllHeaders: false, //显示所有页面的标题链接
         lastUpdated: '最近更新时间',
