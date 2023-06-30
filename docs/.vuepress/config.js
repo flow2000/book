@@ -67,7 +67,7 @@ module.exports = {
             }
         ],
         algolia: {
-            apiKey: 'a2f905d2d1da32a1fb4362596d8d4e79',
+            apiKey: '60cee6fd88a1723da2a4d85cd44e5691',
             indexName: 'netlify_aa3de6c6-32d8-4005-8fa7-fc0b02485e27_main_all',
             appId: 'KVAKQAJAMG',
         },
